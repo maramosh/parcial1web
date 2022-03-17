@@ -1,0 +1,103 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+navbar {
+    height: 5em;
+    background-color: #333A40;
+}
+
+.pageTitle {
+    font-family: 'Rochester', cursive;
+    margin-left: 1.3em;
+    font-size: 2em;
+    color: black;
+}
+
+.carrito {
+    width: 3em;
+    height: 3em;
+    padding: 0;
+}
+
+.itemNumber {
+    margin-right: 1.5em;
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.navegacion {
+    height: 4em;
+    background-color: #333A40;
+}
+
+.category {
+    border: none;
+    background: none;
+    color: #fff;
+}
+
+.category:focus {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#currentItemName {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.card {
+    width: 262px;
+    height: 25em;
+}
+
+.card-body {
+    font-size: 12px;
+}
+
+.item-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-img-top {
+    width: 175px;
+    height: 130px;
+}
+
+.btn {
+    background-color: #F2A950;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    border: 1px solid #CCCCCC;
+    border-radius: 0%;
+}
+
+.btnConfirm {
+    background-color: #708C32;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #000;
+    border-radius: 0%;
+}
+
+.btnCancel {
+    background-color: #8C162C;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    border: 1px solid #000;
+    border-radius: 0%;
+}
+
+.btnModify {
+    background-color: #FDCD55;
+    border: none;
+    color: white;
+    width: 2em;
+    height: 2em;
+}
